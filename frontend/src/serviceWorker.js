@@ -1,4 +1,4 @@
-export function register() {
+**/export function register() {
   console.log("Registrando service worker", navigator)
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
